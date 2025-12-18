@@ -935,13 +935,17 @@ font-size: 30px;
         top: auto !important;
         width: 95% !important;
     }
+    .date-field{
+        width: 180px;
+    }
+    .date-field label{
+        left: 5px !important;
+    }
 }
 
 
 .date-field {
     position: relative;
-    margin-bottom: 20px;
-    width: 200px;
 }
 
 .date-field input {
@@ -949,21 +953,20 @@ font-size: 30px;
     height: 48px;
     padding: 10px 12px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .date-field label {
     position: absolute;
     top: 50%;
-    left: 7px;
+    left: 12px;
     transform: translateY(-50%);
     color: #999;
     font-size: 14px;
     pointer-events: none;
     transition: 0.3s;
     background: #fff;
-    padding: 6px;
-    width: 100%;
+    padding: 0 6px;
 }
 
 /* When date selected */
